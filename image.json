@@ -1,10 +1,10 @@
 {
     "builders": [{
       "type": "amazon-ebs",
-      "region": "{{region}}",
-      "instance_type": "{{instance_type}}",
-      "source_ami":"{{source_ami}}",
-      "ssh_username": "{{ssh_username}}",
+      "region": "{{user ` region`}}",
+      "instance_type": "{{user `instance_type`}}",
+      "source_ami":"{{user `source_ami`}}",
+      "ssh_username": "{{user `ssh_username`}}",
       "ami_name": "updated {{timestamp}}"
     }],
     "provisioners": [
