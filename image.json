@@ -18,7 +18,11 @@
         {
           "type":  "shell",
           "inline": [
-              "sudo yum update -y"
+              "sudo yum update -y",
+              "sudo yum install serverbackup-enterprise-agent -y",
+              "sudo systemctl start cdp-agent",
+              "sudo systemctl enable cdp-agent",
+              "sudo sytemctl stop firewalld"
               ]
             }
             
