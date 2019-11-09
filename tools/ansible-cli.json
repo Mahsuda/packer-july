@@ -5,7 +5,7 @@
       "instance_type": "{{user `instance_type`}}",
       "source_ami": "{{user `source_ami`}}",
       "ssh_username": "{{user `ssh_username`}}",
-      "ami_name": "updated {{timestamp}}"
+      "ami_name": "ansible-cli {{timestamp}}"
     }],
     "provisioners": [
         {
