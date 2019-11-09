@@ -23,7 +23,7 @@
                 
         }, {
             "type":  "file",
-            "source": "files/r1soft.repo",
+            "source": "files/jenkins.repo",
             "destination": "/tmp/jenkins.repo"
                 
         },
